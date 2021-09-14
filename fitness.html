@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            background-image: url('gym.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            /* border: 2px solid white; */
+
+            width: 600px;
+            margin: 20px auto;
+            padding: 2px 36px;
+            font-size: 20px;
+
+        }
+
+        .nav ul li {
+            display: inline;
+            margin: 2px 19px;
+            padding: 2px 9px;
+
+        }
+
+        .nav li a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+
+        }
+
+        .nav li a:hover {
+            color: rgb(224, 247, 17);
+        }
+
+        .name {
+            color: white;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            width: 200px;
+            margin: 5px auto;
+            text-align: center;
+            font-family: 'Baloo Bhaina 2', cursive;
+        }
+
+        .btn {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 34px;
+            width: 220px;
+            text-align: center;
+            margin-top: -81px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            
+        }
+        .btn button{
+            background-color: grey;
+            border-radius: 15px;
+
+        }
+
+        .btn  a{
+            border-radius: 15px; 
+            color: white;
+            background-color: grey;
+            cursor: pointer;
+            margin: 2px 2px;
+            width: 100px;
+            text-decoration: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+
+        }
+
+        .btn button a:hover {
+            color: gold;
+        }
+
+        .cont {
+            /* border: 2px solid white; */
+            color: white;
+            width: 45%;
+            margin: 150px 20px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            font-size: 18px;
+            text-align: center;
+            width: 34%;
+
+        }
+
+        .cont input {
+            border-radius: 12px;
+            margin: 10px 113px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            font-size: 18px;
+            text-align: center;
+            width: 34%;
+
+
+
+        }
+
+        #b {
+            font-family: 'Baloo Bhaina 2', cursive;
+            width: 80px;
+            margin: 2px 27%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <h1>Your Fitness</h1>
+
+        </div>
+        <div class="nav">
+            <nav>
+
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">Service</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="btn">
+            <button><a href="login.html" target="_blank" >Sign in</a></button>
+            <button><a href="registration.html" target="_blank"> Sigan up</a></button>
+
+        </div>
+    </header>
+    <div class="cont">
+        <h1>Your Gym Is Best</h1>
+        <form action="j.php">
+            <div>
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div> <input type="text" placeholder="Lastname"></div>
+            <div><input type="text" placeholder="Gender " required></div>
+            <div> <input type="text" placeholder="Age" required></div>
+            <div><input type="button" value="Submit" id="b"></div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
